@@ -1,0 +1,17 @@
+128	: detector bin number (in r direction)
+128	: detector bin number (in z direction)
+
+128	: volume voxel number (x and y axis)
+128	: volume voxel number (z axis)                  VOlume size is N_VOLUME_XY x N_VOLUME_XY x N_VOLUME_Z
+
+1	: voxel size [in units of pixel size!!!]
+0.47952	: detector pixel size [detector pixel size in cm -- needed for attenuation purposes only]
+
+64	: number of views
+135	: Head 1 starting angle of rotation [degrees]
+315	: Head 2 starting angle of rotation [degrees]
+180	: total angle of rotation (360 = 2.*M_PI) [degrees]
+
+90.0	: distance to detector in units of pixel size, make sure it's not infringing on the volume
+7	: Number of DIVERGING RAYS  (Can be only 1 7 13 19 31 or 37 (see tech report))
+3	: Number of PIXEL SUBDIVISION
